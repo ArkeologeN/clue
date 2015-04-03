@@ -1,0 +1,31 @@
+{
+  "name": "clue",
+  "version": "0.1.0",
+  "description": "JSON based configuration loader and parser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArkeologeN/clue.git"
+  },
+  "keywords": [
+    "config",
+    "configuration",
+    "loader",
+    "parser",
+    "wrapper",
+    "config-loader",
+    "json"
+  ],
+  "author": "Hamza Waqas <hamzawaqas.programmer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArkeologeN/clue/issues"
+  },
+  "homepage": "https://github.com/ArkeologeN/clue",
+  "dependencies": {
+    "klass": "^1.4.0"
+  }
+}
