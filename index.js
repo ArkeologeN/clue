@@ -27,6 +27,9 @@
         get: function(path, alternate) {
           return this.__notation[path] || alternate;
         },
+        getNotations: function() {
+          return this.__notation;
+        },
         _load: function() {
           if (!this.__path) throw new Error('[path] is invalid or missing for clue.setPath');
 
@@ -46,9 +49,9 @@
 
             if (value instanceof Object) {
               this.__dig(value, notation);
-            } else {
-              this.__notation[notation] = value;
             }
+
+            this.__notation[notation] = value;
           }
         }
       });

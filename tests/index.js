@@ -60,6 +60,10 @@
         });
       });
 
+      it('`getNotations` and return all parsed notations', function() {
+        expect(clue.getNotations()).to.be.an.instanceOf(Object);
+      });
+
     });
   });
 
