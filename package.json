@@ -1,6 +1,6 @@
 {
   "name": "clue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JSON based configuration loader and parser.",
   "main": "index.js",
   "scripts": {
