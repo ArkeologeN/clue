@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/ArkeologeN/clue",
   "dependencies": {
+    "chai": "^2.2.0",
     "klass": "^1.4.0"
   }
 }
